@@ -2,7 +2,7 @@
 The different types of events and literature references
 <br>
 <br>
-*updates:*<br>
+*updated:*<br>
 *28.04.2024: Initial version*
 <br>
 
