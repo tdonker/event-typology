@@ -28,20 +28,7 @@ ___
 
 ___
 
-### Data streams vs Event streams
-* Wanneer gegevens over gebeurtenissen geen metadata bevatten spreken we over (`data`) en (`data streams`) (bijv. bij sensoren die alleen een pakket ruwe data leveren). Als er wel contextgegevens aanwezig spreken we over (`events`) en (`event streams`) (bijv. bij gebeurtenisgegevens die op basis van metakenmerken moeten worden geïnterpreteerd om verwerkt te kunnen worden): [Project Notificaties Architectuur p57](https://github.com/VNG-Realisatie/notificatieservices/blob/main/docs/achtergronddocumentatie/notificatieservices_architectuur.pdf)
-
-
-___
-
-### Data streams vs Event streams
-* Wanneer gegevens over gebeurtenissen geen metadata bevatten spreken we over (`data`) en (`data streams`) (bijv. bij sensoren die alleen een pakket ruwe data leveren). Als er wel contextgegevens aanwezig spreken we over (`events`) en (`event streams`) (bijv. bij gebeurtenisgegevens die op basis van metakenmerken moeten worden geïnterpreteerd om verwerkt te kunnen worden): [Project Notificaties Architectuur p57](https://github.com/VNG-Realisatie/notificatieservices/blob/main/docs/achtergronddocumentatie/notificatieservices_architectuur.pdf)
 
 
 
-
-
-
-API waarmee je je kunt abonneren op notificaties over wijzigingen van personen. Bedoeld voor gebruik in combinatie met de [BRP bevragen API](https://vng-realisatie.github.io/Haal-Centraal-BRP-bevragen), bijvoorbeeld om (tijdelijk) lokale kopiegegevens actueel te houden.
-De API wordt niet door RvIG aangeboden. Om de transitie naar API's en de besparing op het gegevensmagazijn te versnellen, kunnen gemeenten deze API lokaal aanbieden.  
 
