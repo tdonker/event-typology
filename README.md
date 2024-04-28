@@ -1,5 +1,7 @@
 # event-archetypes
 The different types of events and literature references
+</br>
+</br>
 
 ### Domain event
 * The term domain event describes an occurrence of something that **happened in the business domain**. The concept originates in Domain-Driven Design (DDD). The event’s name usually already carries a lot of semantic meaning and is used within the domain language to describe the domain’s processes. [OTTO Consumer API Event Guidelines](https://api.otto.de/portal/guidelines/event-guidelines/concepts#domain-events)
