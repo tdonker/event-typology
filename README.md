@@ -2,6 +2,13 @@
 The different types of events and literature references
 
 
+
+## Data streams vs Event streams
+* Wanneer gegevens over gebeurtenissen geen metadata bevatten spreken we over ‘data’ en ‘data streams’ (bijv. bij sensoren die alleen een pakket ruwe data leveren). Als er wel contextgegevens aanwezig spreken we over ‘events’ en ‘event streams’ (bijv. bij gebeurtenisgegevens die op basis van metakenmerken moeten worden geïnterpreteerd om verwerkt te kunnen worden) [Project Notificaties Architectuur](https://github.com/VNG-Realisatie/notificatieservices/blob/main/docs/achtergronddocumentatie/notificatieservices_architectuur.pdf)
+
+
+
+
 ### JWT (JSON Web Token)
 
 - [ ] Use a random complicated key (`JWT Secret`) to make brute forcing the token very hard.
@@ -18,8 +25,3 @@ The different types of events and literature references
 API waarmee je je kunt abonneren op notificaties over wijzigingen van personen. Bedoeld voor gebruik in combinatie met de [BRP bevragen API](https://vng-realisatie.github.io/Haal-Centraal-BRP-bevragen), bijvoorbeeld om (tijdelijk) lokale kopiegegevens actueel te houden.
 De API wordt niet door RvIG aangeboden. Om de transitie naar API's en de besparing op het gegevensmagazijn te versnellen, kunnen gemeenten deze API lokaal aanbieden.  
 
-## Direct uitproberen?
-* Bekijk de specificaties met [Swagger UI](https://vng-realisatie.github.io/Haal-Centraal-BRP-Update-API/swagger-ui) of [Redoc](https://vng-realisatie.github.io/Haal-Centraal-BRP-Update-API/redoc)
-* Lees de [Getting started](https://vng-realisatie.github.io/Haal-Centraal-BRP-Update-API/getting-started)
-* Download de [technische specificaties](https://github.com/BRP-API/Haal-Centraal-BRP-Update-API/blob/master/specificatie/genereervariant/openapi.yaml)
-* Vraag een API-key voor toegang tot de Haal Centraal probeeromgeving aan bij de product owner [cathy.dingemanse@denhaag.nl](mailto:c.dingemanse@comites.nl)
