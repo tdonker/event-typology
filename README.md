@@ -3,7 +3,7 @@ The different types of events and literature references
 <br>
 <br>
 *updated:*<br>
-*28.04.2024: Initial version*
+*02.05.2024: Initial version*
 <br>
 
 ### Domain event
@@ -12,7 +12,8 @@ The different types of events and literature references
 * Examples of things that happen that might **not** be suitable to model as Domain Events:
     1. Something **technical** (a ButtonClicked, ExceptionThrown etc) happened that we want to record or handle, but it is not described in the ubiquitous language of our domain.
     2. Something that happened **outside of our bounded context**. This could a Domain Event in another system or a different bounded context. [What are Domain Events? Mattias Holmqvist 2020](https://web.archive.org/web/20221201162409/https://serialized.io/ddd/domain-event/)
-
+* The terminology that is used for the aggregate’s name, its data members, its actions, and its **domain events** all should be formulated in the **bounded context’s ubiquitous language**. [Learning Domain-Driven Design. Aligning Software Architecture and Business Strategy (by Vlad Khononv 2021) p134](https://www.oreilly.com/library/view/learning-domain-driven-design/9781098100124/)
+* 
 
 ___
 
