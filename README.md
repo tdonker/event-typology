@@ -32,6 +32,7 @@ ___
 ___
 
 
-
+### When is an Event NOT an Event?
+* So, when is an event **not** an event? [Ben Morris - Agile enterprise architecture 2020](https://www.ben-morris.com/when-is-an-event-not-an-event/)
 
 
