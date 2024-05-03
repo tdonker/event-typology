@@ -3,7 +3,7 @@ The different types of events and literature references
 <br>
 <br>
 *updated:*<br>
-*02.05.2024: Initial version*
+*04.05.2024: Initial version*
 <br>
 
 ### Domain event
