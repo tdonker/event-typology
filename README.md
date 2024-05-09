@@ -15,6 +15,7 @@ ___
 ### Delta event
 * Delta events contain just the properties that changed, so just enough detail, nothing more. [The Event-Carried State Transfer pattern (by Oskar uit de Bos 2021)](https://itnext.io/the-event-carried-state-transfer-pattern-aae49715bb7f)
 * ECST messages that include  only the updated fields... [Learning Domain-Driven Design. Aligning Software Architecture and Business Strategy (by Vlad Khononov 2021) p317](https://www.oreilly.com/library/view/learning-domain-driven-design/9781098100124/)
+* As indicated by Figure 8.5, cumbersome state modification determination is not the case when using PATCH. With a **partial update**, it is straightforward to determine what the fine-grained event-based outcome is for the use case, because it is clear exactly what changed. [Strategic Monoliths and Microservices by Vernon, Jaskula 2022 (by Vernon, Jaskula 2022) p194](https://www.informit.com/store/strategic-monoliths-and-microservices-driving-innovation-9780137355464)
 
 
 ___
