@@ -35,7 +35,7 @@ ___
 ___
 
 ### Event-carried state transfer
-* If autonomy is your driving requirement -> consider enrichment. [DDD re-distilled (by YoanThirion 2020) slide51](https://speakerdeck.com/thirion/ddd-re-distilled?slide=51)
+* If autonomy is your driving requirement -> consider **enrichment**. [DDD re-distilled (by YoanThirion 2020) slide51](https://speakerdeck.com/thirion/ddd-re-distilled?slide=51)
 ___
 
 
