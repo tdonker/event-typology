@@ -33,10 +33,14 @@ ___
     1. Something **technical** (a ButtonClicked, ExceptionThrown etc) happened that we want to record or handle, but it is not described in the ubiquitous language of our domain.
     2. Something that happened **outside of our bounded context**. This could a Domain Event in another system or a different bounded context. [What are Domain Events? Mattias Holmqvist 2020](https://web.archive.org/web/20221201162409/https://serialized.io/ddd/domain-event/)
 
+
 ___
+
 
 ### Event-carried state transfer
 * If autonomy is your driving requirement -> consider **enrichment**. [DDD re-distilled (by YoanThirion 2020) slide51](https://speakerdeck.com/thirion/ddd-re-distilled?slide=51)
+
+
 ___
 
 
