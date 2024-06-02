@@ -32,13 +32,14 @@ ___
 * Examples of things that happen that might **not** be suitable to model as Domain Events:
     1. Something **technical** (a ButtonClicked, ExceptionThrown etc) happened that we want to record or handle, but it is not described in the ubiquitous language of our domain.
     2. Something that happened **outside of our bounded context**. This could a Domain Event in another system or a different bounded context. [What are Domain Events? Mattias Holmqvist 2020](https://web.archive.org/web/20221201162409/https://serialized.io/ddd/domain-event/)
+* I extremely dislike the split of "domain" and "integration" events.The split is highly misleading. All of them should be domain events and represent business facts. I prefer to split them into **internal and external** (or, as Nick Tune 🇺🇦, into **private and public**). [LinkedIn post (by Oskar Dudycz 2023)](https://www.linkedin.com/posts/oskardudycz_i-extremely-dislike-the-split-of-domain-activity-7119331094696476672-1x6r/)
 
 
 ___
 
 
 ### Event-carried state transfer
-* If autonomy is your driving requirement -> consider **enrichment**. [DDD re-distilled (by YoanThirion 2020) slide51](https://speakerdeck.com/thirion/ddd-re-distilled?slide=51)
+* If autonomy is your driving requirement -> consider **enrichment**. [DDD re-distilled (by Yoan Thirion 2020) slide51](https://speakerdeck.com/thirion/ddd-re-distilled?slide=51)
 
 
 ___
@@ -49,19 +50,28 @@ ___
 ___
 
 
-### Data streams vs Event streams
-* Wanneer gegevens over gebeurtenissen geen metadata bevatten spreken we over data en data streams (bijv. bij sensoren die alleen een pakket ruwe data leveren). Als er **wel contextgegevens** aanwezig spreken we over events en event streams (bijv. bij gebeurtenisgegevens die op basis van metakenmerken moeten worden geïnterpreteerd om verwerkt te kunnen worden). [Project Notificaties Architectuur p57](https://github.com/VNG-Realisatie/notificatieservices/blob/main/docs/achtergronddocumentatie/notificatieservices_architectuur.pdf)
-
-
-___
-
 
 ### Mutation event
 
 ___
 
 
+### Pivotal event
+* Pivotal events indicate major changes in the domain and often form the boundary between one phase of the system and another. Pivotal events will typically **separate (a bounded context** in DDD terms). Pivotal events are identified with vertical blue painters tape (crossing all the swimlanes).. [Event-Driven Solutions in Hybrid Cloud (by Jerome Boyer 2024)](https://jbcodeforce.github.io/eda-studies/event-storming/#concepts)
+
+
+___
+
+
+## Miscellaneous:
+
 ### When is an event NOT an event?
 * So, when is an event **not** an event? [Ben Morris - Agile enterprise architecture 2020](https://www.ben-morris.com/when-is-an-event-not-an-event/)
 
+___
 
+### Data streams vs Event streams
+* Wanneer gegevens over gebeurtenissen geen metadata bevatten spreken we over data en data streams (bijv. bij sensoren die alleen een pakket ruwe data leveren). Als er **wel contextgegevens** aanwezig spreken we over events en event streams (bijv. bij gebeurtenisgegevens die op basis van metakenmerken moeten worden geïnterpreteerd om verwerkt te kunnen worden). [Project Notificaties Architectuur p57](https://github.com/VNG-Realisatie/notificatieservices/blob/main/docs/achtergronddocumentatie/notificatieservices_architectuur.pdf)
+
+
+___
