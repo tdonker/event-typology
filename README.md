@@ -3,7 +3,7 @@ The different types of events and literature references
 <br>
 <br>
 *updated:*<br>
-*04.05.2024: Initial version*
+*02.06.2024: Initial version*
 <br>
 
 ### Data event
@@ -29,11 +29,10 @@ ___
 * Finally, **sparingly use domain events for communication with external bounded contexts**. Consider designing a set of dedicated public domain events. [Learning Domain-Driven Design. Aligning Software Architecture and Business Strategy (by Vlad Khononov 2021) p325](https://www.oreilly.com/library/view/learning-domain-driven-design/9781098100124/)
 * A domain event is something that happened in the domain that is relevant to other microservices **within the same bounded context**. [The Event-Carried State Transfer pattern (by Oskar uit de Bos 2021)](https://itnext.io/the-event-carried-state-transfer-pattern-aae49715bb7f)
 * A Domain Event that is published outside your Bounded Context should be defined in your **Published Language**. [LinkedIn post (by Vaughn Vernon 2023)](https://www.linkedin.com/posts/vaughnvernon_dddesign-activity-7121926516568911873-Itb9/)
+* I extremely dislike the split of "domain" and "integration" events.The split is highly misleading. All of them should be domain events and represent business facts. I prefer to split them into **internal and external** (or, as Nick Tune 🇺🇦, into **private and public**). [LinkedIn post (by Oskar Dudycz 2023)](https://www.linkedin.com/posts/oskardudycz_i-extremely-dislike-the-split-of-domain-activity-7119331094696476672-1x6r/)
 * Examples of things that happen that might **not** be suitable to model as Domain Events:
     1. Something **technical** (a ButtonClicked, ExceptionThrown etc) happened that we want to record or handle, but it is not described in the ubiquitous language of our domain.
     2. Something that happened **outside of our bounded context**. This could a Domain Event in another system or a different bounded context. [What are Domain Events? Mattias Holmqvist 2020](https://web.archive.org/web/20221201162409/https://serialized.io/ddd/domain-event/)
-* I extremely dislike the split of "domain" and "integration" events.The split is highly misleading. All of them should be domain events and represent business facts. I prefer to split them into **internal and external** (or, as Nick Tune 🇺🇦, into **private and public**). [LinkedIn post (by Oskar Dudycz 2023)](https://www.linkedin.com/posts/oskardudycz_i-extremely-dislike-the-split-of-domain-activity-7119331094696476672-1x6r/)
-
 
 ___
 
@@ -61,7 +60,8 @@ ___
 
 
 ___
-
+<br>
+<br>
 
 ## Miscellaneous:
 
