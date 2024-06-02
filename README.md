@@ -1,4 +1,4 @@
-# Event-archetypes and literature references
+# Event archetypes and literature references
 The different types of events and literature references
 <br>
 <br>
