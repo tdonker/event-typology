@@ -82,3 +82,9 @@ ___
 
 
 ___
+
+### Event notification vs Event-carried state transfer
+* Notification events - Less risk of data being out of sync; Event-carried state transfer: Higher risk of data being out of sync. [EVENT TYPES by David Boyne](https://eda-visuals.boyney.io/visuals/event-types)
+
+
+___
