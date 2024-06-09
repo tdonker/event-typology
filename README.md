@@ -3,7 +3,7 @@ The different types of events and literature references
 <br>
 <br>
 *updated:*<br>
-*07.06.2024: Initial version*
+*09.06.2024*
 <br>
 
 ### Data event
