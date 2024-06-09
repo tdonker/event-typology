@@ -1,9 +1,11 @@
 # Event Typology and literature references
 The different types of events and literature references
 <br>
+
+*updates:*<br>
+*09.06.2024: Addition discrete events*
 <br>
-*updated:*<br>
-*09.06.2024*
+*15.05.2024: Initial version*
 <br>
 
 ### Data event
