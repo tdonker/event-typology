@@ -17,6 +17,11 @@ ___
 * ECST messages that include  only the updated fields... [Learning Domain-Driven Design. Aligning Software Architecture and Business Strategy (by Vlad Khononov 2021) p317](https://www.oreilly.com/library/view/learning-domain-driven-design/9781098100124/)
 * As indicated by Figure 8.5, cumbersome state modification determination is not the case when using PATCH. With a **partial update**, it is straightforward to determine what the fine-grained event-based outcome is for the use case, because it is clear exactly what changed. [Strategic Monoliths and Microservices by Vernon, Jaskula 2022 (by Vernon, Jaskula 2022) p194](https://www.informit.com/store/strategic-monoliths-and-microservices-driving-innovation-9780137355464)
 
+___
+
+
+### Discrete event
+* Think of discrete events as significant (important) **facts that have happened**, and you have downstream consumers that want to act on this information. [Understanding stream and discrete events (by David Boyne 2024)](https://eda-visuals.boyney.io/visuals/understanding-stream-and-discrete-events)
 
 ___
 
