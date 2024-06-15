@@ -46,13 +46,16 @@ ___
 
 ### Event-carried state transfer
 * If autonomy is your driving requirement -> consider **enrichment**. [DDD re-distilled (by Yoan Thirion 2020) slide51](https://speakerdeck.com/thirion/ddd-re-distilled?slide=51)
-
+* De naam Event-carried State Transfer **(EST ?)** is gekozen om een beetje te contrasteren met REST. [De vier gezichten van EDA (by Koen Vanderkimpen 2022)](https://www.smalsresearch.be/de-vier-gezichten-van-eda/)
+* Whether ECST messages **include complete snapshots or only the updated fields**, a stream of such events allows consumers to hold a local cache of the entities’ states and work with it. [Learning Domain-Driven Design. Aligning Software Architecture and Business Strategy (by Vlad Khononov 2021) p316](https://www.oreilly.com/library/view/learning-domain-driven-design/9781098100124/)
 
 ___
 
 
 ### Event notification
-* The notification event is small and concise as it only contains a reference to the state that was changed. [The event notification pattern (by Oskar uit de Bos 2021)](https://medium.com/geekculture/the-event-notification-pattern-a62d48519107)
+* The notification event is small and concise as it only **contains a reference** to the state that was changed. [The event notification pattern (by Oskar uit de Bos 2021)](https://medium.com/geekculture/the-event-notification-pattern-a62d48519107)
+* Belangrijk in dit patroon, is dat de Events verder **geen toestand** bevatten. Als de ontvangers van het event dus willen weten wát er precies is veranderd aan de klantenfiche, of wát er besteld werd in het order, dan zullen ze toch actief initiatief moeten nemen om aan deze informatie te geraken. [De vier gezichten van EDA (by Koen Vanderkimpen 2022)](https://www.smalsresearch.be/de-vier-gezichten-van-eda/)
+* The event notification **should not be verbose**: the goal is to notify the interested parties about the event, but the notification shouldn’t carry all the information needed for the subscribers to react to the event. [Learning Domain-Driven Design. Aligning Software Architecture and Business Strategy (by Vlad Khononov 2021) p313](https://www.oreilly.com/library/view/learning-domain-driven-design/9781098100124/)
 
 ___
 
