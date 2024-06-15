@@ -5,6 +5,7 @@ The different types of events and literature references
 *updates:*<br>
 *09.06.2024: Addition discrete events*
 <br>
+*09.06.2024: Addition pivotal events*
 *15.05.2024: Initial version*
 <br>
 
@@ -52,6 +53,7 @@ ___
 
 
 ### Event notification
+* The notification event is small and concise as it only contains a reference to the state that was changed. [The event notification pattern (by Oskar uit de Bos 2021)](https://medium.com/geekculture/the-event-notification-pattern-a62d48519107)
 
 ___
 
