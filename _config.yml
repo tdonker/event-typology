@@ -1,4 +1,5 @@
 title: "Event Typology"
 description: "The different types of events and literature references"
-theme: jekyll-theme-minima
+theme: minima
+show_downloads: true
 # logo: img/books.jpg
