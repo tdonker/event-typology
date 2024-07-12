@@ -69,9 +69,15 @@ ___
 ### Pivotal event
 * Pivotal events indicate major changes in the domain and often form the boundary between one phase of the system and another. Pivotal events will typically **separate (a bounded context** in DDD terms). Pivotal events are identified with vertical blue painters tape (crossing all the swimlanes). [Event-Driven Solutions in Hybrid Cloud (by Jerome Boyer 2024)](https://jbcodeforce.github.io/eda-studies/event-storming/#concepts)
 
-
 ___
 
+
+### Summary event
+* We should provide the Summary Event that will provide the complete information needed for other modules. If they also need information about other steps of the process, we can have more than one summary event. [Internal and external events, or how to design event-driven API (by Oscar Dudycz 2023)](https://event-driven.io/en/internal_external_events/)
+* Instead of emitting a stream of Domain Events, emit a single Summary. [Patterns for Decoupling in Distributed Systems: Summary Event (by Mathias Verraes 2019)](https://verraes.net/2019/05/patterns-for-decoupling-distsys-summary-event/)
+
+
+___
 
 ### Tombstone event
 * Kafka even has a convention to signify deletions: a message **with a key but a null payload, also known as a tombstone**. This indicates that the record should be deleted. Due to compaction, all non-tombstone messages will eventually disappear, leaving nothing but the deletion record (and that can be auto-compacted as well). [Design patterns for asynchronous API communication (by Daniel Orner 2022)](https://stackoverflow.blog/2022/07/21/event-driven-topic-design-using-kafka/)
