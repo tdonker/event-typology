@@ -3,6 +3,7 @@ The different types of events and literature references
 <br>
 
 *updates:*<br>
+*12.07.2024: Addition summary events*<br>
 *15.06.2024: Addition discrete events*<br>
 *09.06.2024: Addition pivotal events*<br>
 *15.05.2024: Initial version*<br>
