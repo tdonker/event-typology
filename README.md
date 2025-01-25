@@ -3,6 +3,7 @@ The different types of events and literature references
 <br>
 
 *updates:*<br>
+*25.01.2024: Added SAP's definition of Domain Events*<br>
 *10.08.2024: Addition several links*<br>
 *12.07.2024: Addition summary events*<br>
 *15.06.2024: Addition discrete events*<br>
@@ -32,6 +33,7 @@ ___
 
 
 ### Domain event
+* A Domain Event is a representation of something that has occurred in the domain that is of **interest to the business**. It captures a significant change in the state of the system and communicates this change to other parts of the system or external systems that need to react to it. Domain events are usually immutable, and they describe a past event rather than a future action. [SAP's Curated Resources for Domian Driven Design (by SAP 2025)](https://github.com/SAP/curated-resources-for-domain-driven-design/blob/main/knowledgebase/concepts/tactical-concepts/domain-events.md)
 * The term domain event describes an occurrence of something that **happened in the business domain**. The concept originates in Domain-Driven Design (DDD). The event’s name usually already carries a lot of semantic meaning and is used within the domain language to describe the domain’s processes. [OTTO Consumer API Event Guidelines](https://api.otto.de/portal/guidelines/event-guidelines/concepts#domain-events)
 * As a default practice, consider every domain event **"private", only meant for internal consumption**. Only through deliberate exposure consumers get access to the events, similar to how APIs are used instead of direct database access. [The different types of events in event-driven systems Frank de Jonge 2022](https://blog.frankdejonge.nl/the-different-types-of-events-in-event-driven-systems/)
 * The terminology that is used for the aggregate’s name, its data members, its actions, and its **domain events all should be formulated in the bounded context’s ubiquitous language**. [Learning Domain-Driven Design. Aligning Software Architecture and Business Strategy (by Vlad Khononov 2021) p134](https://www.oreilly.com/library/view/learning-domain-driven-design/9781098100124/)
