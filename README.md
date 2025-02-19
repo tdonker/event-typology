@@ -3,7 +3,7 @@ The different types of events and literature references
 <br>
 
 *updates:*<br>
-*25.01.2024: Added SAP's definition of Domain Events*<br>
+*25.01.2025: Added SAP's definition of Domain Events*<br>
 *10.08.2024: Addition several links*<br>
 *12.07.2024: Addition summary events*<br>
 *15.06.2024: Addition discrete events*<br>
