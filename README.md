@@ -3,6 +3,7 @@ The different types of events and literature references
 <br>
 
 *updates:*<br>
+*26.07.2025: Added Entity Events and (un)keyed events*<br>
 *25.01.2025: Added SAP's definition of Domain Events*<br>
 *10.08.2024: Addition several links*<br>
 *12.07.2024: Addition summary events*<br>
@@ -45,6 +46,14 @@ ___
 * Examples of things that happen that might **not** be suitable to model as Domain Events:
     1. Something **technical** (a ButtonClicked, ExceptionThrown etc) happened that we want to record or handle, but it is not described in the ubiquitous language of our domain.
     2. Something that happened **outside of our bounded context**. This could a Domain Event in another system or a different bounded context. [What are Domain Events? Mattias Holmqvist 2020](https://web.archive.org/web/20221201162409/https://serialized.io/ddd/domain-event/)
+
+___
+
+
+### Entity Event and (Un)Keyed Events
+* An entity is a unique thing and is keyed on the unique ID of that thing. The **entity event** describes the properties and state of an entity — most commonly an object in the business context — at a given point in time.. [Building Event-Driven Microservices (by Adam Bellemare 2020) slide51](https://www.amazon.nl/Building-Event-Driven-Microservices-Leveraging-Organizational/dp/1492057894)
+* **Unkeyed events** are used to describe an event as a singular statement of fact. An example could be an event indicating that a customer interacted with a product, such as a user opening a book entity on a digital book platform.. 
+* A **keyed event** contains a key but does not represent an entity. Keyed events are usually used for partitioning the stream of events to guarantee data locality within a single partition of an event stream. 
 
 ___
 
